@@ -6,8 +6,20 @@ report that opens from a local disk without a network connection.
 
 ## Install
 
+Install the prerelease from PyPI:
+
 ```bash
-pip install .
+python -m pip install --pre nv-orf-finder
+```
+
+The Python package and command keep the shorter project name:
+
+```python
+import orf_finder
+```
+
+```bash
+orf-finder --version
 ```
 
 ## Quickstart
