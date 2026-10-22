@@ -6,7 +6,7 @@ on:
       tag:
         description: Annotated release tag to publish
         required: true
-        default: v1.1.3rc3
+        default: v1.1.3rc4
         type: string
 
 jobs:
@@ -65,7 +65,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/nv-orf-finder
+      url: https://pypi.org/p/norvara-orf-finder
     permissions:
       id-token: write
     steps:

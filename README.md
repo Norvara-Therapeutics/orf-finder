@@ -9,7 +9,7 @@ report that opens from a local disk without a network connection.
 Install the prerelease from PyPI:
 
 ```bash
-python -m pip install --pre nv-orf-finder
+python -m pip install --pre norvara-orf-finder
 ```
 
 The Python package and command keep the shorter project name:
