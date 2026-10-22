@@ -10,7 +10,7 @@ from orf_finder.orf import ORF, START_MODES, cds_sequence, find_orfs
 from orf_finder.sequence import SequenceMetrics, metrics, reverse_complement
 from orf_finder.fasta import Record, read_fasta
 
-__version__ = "1.1.3rc1"
+__version__ = "1.1.3rc2"
 
 __all__ = [
     "GeneticCode",
